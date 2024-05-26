@@ -64,8 +64,8 @@ export const BentoGridItem = ({
         className
       )}
       style={{ // you can generate the color from here: https://cssgradient.io/
-        background: 'rgb(0,0,0)',
-        backgroundColor: 'linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(69,153,217,1) 35%, rgba(15,2,91,1) 100%)',
+        background: "rgb(4,7,29)",
+        backgroundColor: "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
       }}
     >
       <div className={`${id === 6 && 'flex justify-center'} h-full`}>
@@ -84,11 +84,9 @@ export const BentoGridItem = ({
               className="object-cover object-center w-full h-full"
             />}
         </div>
-        {id === 6 && (
-          <BackgroundGradientAnimation>
-            <div className="absolute z-50 flex items-center justify-center text-white font-bold"/>
-          </BackgroundGradientAnimation>
-        )}
+        
+        {id === 6 && <BackgroundGradientAnimation />}
+
         <div className={cn(titleClassName, 'group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col px-5 p-5 lg:p-10')}>
           <div className="font-sans font-extralight md:max-w-32 md:text-xs lg:text-base text-sm text-[#c1c2d3] z-10">
             {description}
