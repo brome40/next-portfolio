@@ -3,7 +3,7 @@ import React from 'react'
 import { PinContainer } from './PinContainer'
 import { FaLocationArrow } from 'react-icons/fa6'
 
-const RecentProjects = () => {
+const Projects = () => {
   return (
     <div className='py-20' id='projects'>
       <h1 className='heading'>
@@ -52,4 +52,4 @@ const RecentProjects = () => {
   )
 }
 
-export default RecentProjects
+export default Projects
