@@ -4,6 +4,7 @@ import Testimonials from "@/components/Testimonials";
 import Projects from "@/components/ui/Projects";
 import Experience from "@/components/Experience";
 import Approach from "@/components/Approach";
+import Footer from "@/components/Footer";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import { navItems } from "@/data";
 
@@ -18,6 +19,7 @@ export default function Home() {
         <Testimonials/>
         <Experience/>
         <Approach/>
+        <Footer/>
       </div>
     </main>
   );
