@@ -16,7 +16,7 @@ export default function Home() {
         <Hero/>
         <Grid/>
         <Projects/>
-        <Testimonials/>
+        {/* <Testimonials/> */}
         <Experience/>
         <Approach/>
         <Footer/>
