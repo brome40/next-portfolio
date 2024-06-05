@@ -1,6 +1,6 @@
 import { projects } from '@/data'
 import React from 'react'
-import { PinContainer } from './PinContainer'
+import { PinContainer } from './ui/PinContainer'
 import { FaLocationArrow } from 'react-icons/fa6'
 
 const Projects = () => {
@@ -9,6 +9,7 @@ const Projects = () => {
       <h1 className='heading'>
         A small selection of {' '}
         <span className='text-purple'>recent projects</span>
+        <a href="https://github.com/brome40/jamming" target='_blank'>Testing this link</a>
       </h1>
       <div className='flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10'>
         {projects.map(({ id, title, des, img, iconLists, link }) => (
@@ -40,7 +41,7 @@ const Projects = () => {
                   ))}
                 </div>
                 <div className='flex justify-center items-center'>
-                  <p className='flex lg:text-xl md:text-xs text-sm text-purple'>Check Live Site</p>
+                  <p className='flex lg:text-xl md:text-xs text-sm text-purple'>View Codebase</p>
                   <FaLocationArrow className='ms-3' color='#CBACF9'/>
                 </div>
               </div>
