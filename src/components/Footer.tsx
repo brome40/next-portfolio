@@ -2,6 +2,7 @@ import React from 'react'
 import MagicButton from './ui/MagicButton'
 import { FaLocationArrow } from 'react-icons/fa6'
 import { socialMedia } from '@/data'
+import { SocialIconWrapper } from './ui/SocialIconWrapper'
 
 const Footer = () => {
   return (
@@ -24,10 +25,10 @@ const Footer = () => {
       <div className='flex mt-16 md:flex-row flex-col justify-between items-center'>
         <p className='md:text-base text-sm md:font-normal font-light'>Copyright © 2024 Ben Rome</p>
         <div className='flex items-center md:gap-3 gap-6'>
-          {socialMedia.map((profile) => (
-            <div key={profile.id} className='w-10 h-10 cursor-pointer flex justify-center items-center backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300'>
-              <img src={profile.img} alt={profile.id.toString()} width={20} height={20}/>
-            </div>
+          {socialMedia.map(({ id, img, link }) => (
+            <SocialIconWrapper key={id} link={link}>
+              <img src={img} alt={id.toString()} width={20} height={20}/>
+            </SocialIconWrapper>
           ))}
         </div>
       </div>
