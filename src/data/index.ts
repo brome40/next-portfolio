@@ -73,20 +73,21 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "Team Marine Landing Page",
+    des: "Worked closely with a team of university students in Tokyo, Japan to design a homepage for their research project.",
+    img: "/teammarine.png",
+    iconLists: ["/re.svg"],
+    link: "https://team-marine.vercel.app/",
+  },
+  {
+    id: 2,
     title: "Jammming - Playlist Builder",
     des: "Leverage the Spotify Web API to create and import a new spotify playlist.",
     img: "/jammming.png",
     iconLists: ["/re.svg"],
     link: "https://github.com/brome40/jamming",
   },
-  // {
-  //   id: 2,
-  //   title: "Coming Soon",
-  //   // des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-  //   // img: "/p2.svg",
-  //   // iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-  //   // link: "https://github.com/adrianhajdin/zoom-clone",
-  // },
+
   // {
   //   id: 3,
   //   title: "AI Image SaaS - Canva Application",
