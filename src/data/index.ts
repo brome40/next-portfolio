@@ -73,6 +73,14 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "Tyrolean Pottpouri Music Group",
+    des: "Developed a responsive and SEO-opimized website for a musical group based in Tokyo, Japan using Next.js and TailwindCSS.",
+    img: "/tyrol.png",
+    iconLists: ["/next.svg", "/ts.svg", "/tail.svg"],
+    link: "https://tyrolean-potpourri.vercel.app/",
+  },
+  {
+    id: 2,
     title: "Team Marine Landing Page",
     des: "Worked closely with a team of university students in Tokyo, Japan to design a homepage for their research project.",
     img: "/teammarine.png",
@@ -80,7 +88,7 @@ export const projects = [
     link: "https://team-marine.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Jammming - Playlist Builder",
     des: "Leverage the Spotify Web API to create and import a new spotify playlist.",
     img: "/jammming.png",
