@@ -73,7 +73,7 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Tyrolean Pottpouri Music Group",
+    title: "Tyrolean Pottpouri",
     des: "Developed a responsive and SEO-opimized website for a musical group based in Tokyo, Japan using Next.js and TailwindCSS.",
     img: "/tyrol.png",
     iconLists: ["/next.svg", "/ts.svg", "/tail.svg"],
