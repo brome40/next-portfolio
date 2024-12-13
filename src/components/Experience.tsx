@@ -10,7 +10,7 @@ const Experience = () => {
         <span className='text-purple'>work experience</span>
       </h1>
       <div className='w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10'>
-        {workExperience.map((card) => (
+        {workExperience.reverse().map((card) => (
           <Button
             key={card.id}
             duration={Math.floor(Math.random() * 10000) + 10000}

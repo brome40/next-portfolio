@@ -29,7 +29,7 @@ const Hero = () => {
           />
 
           <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
-            Hi, I&apos;m Ben, a Software Developer based in Louisville, KY
+            Hi, I&apos;m Ben, a Software Developer based in Louisville, KY.
           </p>
 
           <a href='#about'>
